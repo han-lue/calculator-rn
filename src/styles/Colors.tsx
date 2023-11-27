@@ -3,7 +3,6 @@ export const myColors = {
     dark: '#17171C',
     purple: '#885DD1',
     btnGray: '#4E505F',
-    btnDark: '#2E2F38',
     gray: '#747477',
     black: '#000000',
     white: '#FFFFFF', 

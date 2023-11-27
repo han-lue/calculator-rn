@@ -6,25 +6,16 @@ export const Styles = StyleSheet.create({
     btnPurple: {
         width: 72,
         height: 72,
-        borderRadius: 24,
+        borderRadius: 50,
         backgroundColor: myColors.purple,
         justifyContent: "center",
         alignItems: "center",
         margin: 8,
     },
-    btnDark: {
+    btnWhite: {
         width: 72,
         height: 72,
-        borderRadius: 24,
-        backgroundColor: myColors.btnDark,
-        justifyContent: "center",
-        alignItems: "center",
-        margin: 8,
-    },
-    btnLight: {
-        width: 72,
-        height: 72,
-        borderRadius: 24,
+        borderRadius: 50,
         backgroundColor: myColors.white,
         justifyContent: "center",
         alignItems: "center",
@@ -33,7 +24,7 @@ export const Styles = StyleSheet.create({
     btnGray: {
         width: 72,
         height: 72,
-        borderRadius: 24,
+        borderRadius: 50,
         backgroundColor: myColors.btnGray,
         justifyContent: "center",
         alignItems: "center",
@@ -58,13 +49,13 @@ export const Styles = StyleSheet.create({
     },
     screenFirstNumber: {
         fontSize: 96,
-        color: myColors.gray,
+        color: myColors.black,
         fontWeight: '200',
         alignSelf: "flex-end",
     },
     screenSecondNumber: {
         fontSize: 40,
-        color: myColors.gray,
+        color: myColors.black,
         fontWeight: '200',
         alignSelf: "flex-end",
     },
