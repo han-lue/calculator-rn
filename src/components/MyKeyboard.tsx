@@ -9,7 +9,7 @@ export default function MyKeyboard() {
     const [firstNumber, setFirstNumber] = React.useState("");
     const [secondNumber, setSecondNumber] = React.useState("");
     const [operation, setOperation] = React.useState("");
-    const [result, setResult] = React.useState<any | null >(null);
+    const [result, setResult] = React.useState<any | null >(null); // test
 
 
     const firstNumberDisplay = () => {
