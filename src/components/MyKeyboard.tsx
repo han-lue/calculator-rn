@@ -114,7 +114,7 @@ export default function MyKeyboard() {
             }}
         >
            {
-           <Text style={Styles.screenSecondNumber}> {secondNumber} 
+            <Text style={Styles.screenSecondNumber}> {secondNumber} 
               <Text style={{ color: "purple", fontSize: 50, fontWeight: '500' }}>{operation}</Text>
             </Text>
             

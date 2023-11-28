@@ -4,27 +4,27 @@ import { myColors } from "./Colors";
 export const Styles = StyleSheet.create({
     // Button
     btnPurple: {
-        width: 72,
-        height: 72,
-        borderRadius: 50,
+        width: '20%',
+        aspectRatio: 1,
+        borderRadius: 100,
         backgroundColor: myColors.purple,
         justifyContent: "center",
         alignItems: "center",
         margin: 8,
     },
     btnWhite: {
-        width: 72,
-        height: 72,
-        borderRadius: 50,
+        width: '20%',
+        aspectRatio: 1,
+        borderRadius: 100,
         backgroundColor: myColors.white,
         justifyContent: "center",
         alignItems: "center",
         margin: 8,
     },
     btnGray: {
-        width: 72,
-        height: 72,
-        borderRadius: 50,
+        width: '20%',
+        aspectRatio: 1,
+        borderRadius: 100,
         backgroundColor: myColors.btnGray,
         justifyContent: "center",
         alignItems: "center",
@@ -40,12 +40,14 @@ export const Styles = StyleSheet.create({
     },
     // Keyboard
     row: {
-        maxWidth: '100%',
+        width: '100%',
         flexDirection: "row",
+        justifyContent: "space-between"
     },
     viewBottom: {
         position: 'absolute',
-        bottom: 50,
+        width: "95%", 
+        bottom: 30,
     },
     screenFirstNumber: {
         fontSize: 96,
