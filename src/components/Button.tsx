@@ -10,18 +10,16 @@ interface ButtonProps {
     isWhite?: boolean;
 }
 
-export default function Button({onPress, title, isPurple, isGray, isWhite} : ButtonProps) {
+export default function Button({onPress, title, isPurple, isGray} : ButtonProps) {
 
     return(
         <TouchableOpacity 
         style={
             isPurple 
             ? Styles.btnPurple 
-            : isGray
-            ? Styles.btnGray
-            : isWhite
-            ? Styles.btnWhite
-            : Styles.btnGray //this is there only so the code compiles. fix the code later and remove it.
+            : isGray 
+            ? Styles.btnGray 
+            : Styles.btnWhite 
         }
         onPress={onPress}
         >
