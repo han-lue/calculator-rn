@@ -79,9 +79,11 @@ export default function MyKeyboard() {
         setResult(null);
 
       } else {
+
         setOperation(buttonValue);
         setSecondNumber(firstNumber);
         setFirstNumber("");
+
       }
     };
     
@@ -113,7 +115,7 @@ export default function MyKeyboard() {
             break;
         case "+/-":
             clearAll();
-            setResult(Math.round((parseFloat(secondNumber) * -1) * 100) / 100);
+            setResult(Math.round((parseFloat(secondNumber) * -1) * 100) / 100 );
             break;
         case "%":
             clearAll();
@@ -121,7 +123,7 @@ export default function MyKeyboard() {
             break;
         default: 
             clearAll();
-            setResult(0);
+            setResult(null);
             break;
         }
     };
@@ -156,10 +158,10 @@ export default function MyKeyboard() {
             }}
           />
 
-          <Button title="％" 
+          <Button title="%" 
             isGray 
             onPress={() => {
-              handleOperationPress("％")
+              handleOperationPress("%")
             }}
           />
 
