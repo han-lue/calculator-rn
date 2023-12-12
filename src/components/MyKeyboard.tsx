@@ -15,8 +15,10 @@ export default function MyKeyboard() {
 
     const firstNumberDisplay = () => {
       if (result !== null) {
-          return <Text style={+result < 99999 ? [Styles.screenFirstNumber, {color: myColors.result}] : 
-          [Styles.screenFirstNumber, {fontSize: 50, color: myColors.result}]}
+          return <Text style={
+            +result < 99999 
+            ? [Styles.screenFirstNumber, {color: myColors.result}] 
+            : [Styles.screenFirstNumber, {fontSize: 50, color: myColors.result}]}
           >
             {result?.toString()}
           </Text>; 
